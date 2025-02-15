@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
+title: 금상호 포트폴리오입니다!
 email: keumm9612@naver.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+keywords: 'your keywords, separated by commas'
+skills: 'React, React-Native, Next, SCSS를 다룰 수 있습니다'
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -26,13 +26,13 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary-rgb: '24,288,156' #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: SangHo Keum
   location: Location
   social: Around the Web
   credits: Credits
@@ -48,12 +48,12 @@ social:
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/monkeyhurray
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 12, Seouldaehak-ro 264beon-gil, Siheung-si, Gyeonggi-do,
+  - line: 15011
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
@@ -65,7 +65,7 @@ permalink: pretty
 #for posts
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
-      permalink: ""
+      permalink: ''

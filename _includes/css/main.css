@@ -96,6 +96,13 @@ header img {
     margin: 0 auto 20px;
 }
 
+header .img-responsive {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;  /* 원 형태로 만들기 */
+    object-fit: cover;
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -115,6 +122,7 @@ header .intro-text .skills {
         padding-bottom: 100px;
     }
 
+
     header .intro-text .name {
         font-size: 4.75em;
     }
@@ -122,7 +130,9 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+
 }
+
 
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -254,6 +264,7 @@ section.success {
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
+
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
       flex-flow: row wrap;
@@ -270,6 +281,7 @@ section.success {
       flex: 1 0 32%;
       max-width: 32%;
     }
+
   }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
